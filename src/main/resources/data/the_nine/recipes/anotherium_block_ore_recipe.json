@@ -1,0 +1,13 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_nine:anotherium_block"
+    }
+  ],
+  "result": {
+    "item": "the_nine:anotherium",
+    "count": 9
+  }
+}

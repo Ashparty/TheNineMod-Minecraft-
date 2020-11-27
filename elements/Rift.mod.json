@@ -1,0 +1,27 @@
+{
+  "_fv": 13,
+  "_type": "structure",
+  "definition": {
+    "structure": "rift",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 10000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 2,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 15,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface",
+      "CUSTOM:RiftTundraWorld"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:RiftTundra"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

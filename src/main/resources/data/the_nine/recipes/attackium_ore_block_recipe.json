@@ -1,0 +1,42 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:attackium"
+    },
+    "1": {
+      "item": "the_nine:attackium"
+    },
+    "2": {
+      "item": "the_nine:attackium"
+    },
+    "3": {
+      "item": "the_nine:attackium"
+    },
+    "4": {
+      "item": "the_nine:attackium"
+    },
+    "5": {
+      "item": "the_nine:attackium"
+    },
+    "6": {
+      "item": "the_nine:attackium"
+    },
+    "7": {
+      "item": "the_nine:attackium"
+    },
+    "8": {
+      "item": "the_nine:attackium"
+    }
+  },
+  "result": {
+    "item": "the_nine:attackium_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:anotherium"
+    },
+    "2": {
+      "item": "the_nine:anotherium"
+    },
+    "3": {
+      "item": "the_nine:anotherium"
+    },
+    "4": {
+      "item": "the_nine:anotherium"
+    },
+    "5": {
+      "item": "the_nine:anotherium"
+    },
+    "6": {
+      "item": "the_nine:anotherium"
+    },
+    "7": {
+      "item": "the_nine:anotherium"
+    },
+    "8": {
+      "item": "the_nine:anotherium"
+    }
+  },
+  "result": {
+    "item": "the_nine:anotherium_armor_chestplate",
+    "count": 1
+  }
+}

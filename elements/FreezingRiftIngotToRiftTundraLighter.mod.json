@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftOre"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "Items.GLOWSTONE_DUST"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RiftTundraWorld"
+    },
+    "name": "freezing_rift_ingot_to_rift_tundra_lighter",
+    "namespace": "mod"
+  }
+}

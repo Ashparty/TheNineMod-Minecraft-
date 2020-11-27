@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_nine:cherry_leaves"
+    },
+    "title": {
+      "translate": "advancements.cherry_biome_enter.title"
+    },
+    "description": {
+      "translate": "advancements.cherry_biome_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cherry_biome_enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "the_nine:cherry_forest"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "the_nine:nine_installed"
+}

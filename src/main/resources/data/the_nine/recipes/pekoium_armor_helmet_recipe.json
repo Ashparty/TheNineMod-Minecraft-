@@ -1,0 +1,29 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:pekoium"
+    },
+    "1": {
+      "item": "the_nine:pekoium"
+    },
+    "2": {
+      "item": "the_nine:pekoium"
+    },
+    "3": {
+      "item": "the_nine:pekoium"
+    },
+    "5": {
+      "item": "the_nine:pekoium"
+    }
+  },
+  "result": {
+    "item": "the_nine:pekoium_armor_helmet",
+    "count": 1
+  }
+}

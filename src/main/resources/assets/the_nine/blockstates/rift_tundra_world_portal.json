@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "the_nine:block/rift_tundra_world_portal_ew"
+    },
+    "axis=x": {
+      "model": "the_nine:block/rift_tundra_world_portal_ns"
+    }
+  }
+}

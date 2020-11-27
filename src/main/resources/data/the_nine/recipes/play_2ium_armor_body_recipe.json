@@ -1,0 +1,39 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:play_2ium"
+    },
+    "2": {
+      "item": "the_nine:play_2ium"
+    },
+    "3": {
+      "item": "the_nine:play_2ium"
+    },
+    "4": {
+      "item": "the_nine:play_2ium"
+    },
+    "5": {
+      "item": "the_nine:play_2ium"
+    },
+    "6": {
+      "item": "the_nine:play_2ium"
+    },
+    "7": {
+      "item": "the_nine:play_2ium"
+    },
+    "8": {
+      "item": "the_nine:play_2ium"
+    }
+  },
+  "result": {
+    "item": "the_nine:play_2ium_armor_chestplate",
+    "count": 1
+  }
+}

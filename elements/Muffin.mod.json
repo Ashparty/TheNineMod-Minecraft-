@@ -1,0 +1,28 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "muffin",
+    "customModelName": "Normal",
+    "name": "Muffin",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "Its a muffin!"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:TheNineMod"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 8,
+    "saturation": 0.5,
+    "eatingSpeed": 12,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

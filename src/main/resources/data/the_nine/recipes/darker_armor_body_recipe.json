@@ -1,0 +1,39 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:darker_planks"
+    },
+    "2": {
+      "item": "the_nine:darker_planks"
+    },
+    "3": {
+      "item": "the_nine:darker_planks"
+    },
+    "4": {
+      "item": "the_nine:darker_planks"
+    },
+    "5": {
+      "item": "the_nine:darker_planks"
+    },
+    "6": {
+      "item": "the_nine:darker_planks"
+    },
+    "7": {
+      "item": "the_nine:darker_planks"
+    },
+    "8": {
+      "item": "the_nine:darker_planks"
+    }
+  },
+  "result": {
+    "item": "the_nine:darker_armor_chestplate",
+    "count": 1
+  }
+}

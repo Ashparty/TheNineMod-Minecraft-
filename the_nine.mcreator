@@ -1,0 +1,3615 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "FreezingStone",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_stone"
+    },
+    {
+      "name": "TheNineMod",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_nine_mod"
+    },
+    {
+      "name": "FreezingWater",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_water"
+    },
+    {
+      "name": "RiftTundra",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rift_tundra"
+    },
+    {
+      "name": "NineInstalled",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nine_installed"
+    },
+    {
+      "name": "RiftTundraEnter",
+      "type": "achievement",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rift_tundra_enter"
+    },
+    {
+      "name": "Muffin",
+      "type": "food",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "muffin"
+    },
+    {
+      "name": "MuffinRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "muffin_recipe"
+    },
+    {
+      "name": "MuffinEat",
+      "type": "achievement",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "muffin_eat"
+    },
+    {
+      "name": "Rift",
+      "type": "structure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rift"
+    },
+    {
+      "name": "Phantomvt14",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantomvt_14"
+    },
+    {
+      "name": "ManMadeSand",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "man_made_sand"
+    },
+    {
+      "name": "ManMadeDesert",
+      "type": "biome",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "man_made_desert"
+    },
+    {
+      "name": "Cractus",
+      "type": "achievement",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cractus"
+    },
+    {
+      "name": "CactusArmour",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cactus_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CactusHelmetRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cactus_helmet_recipe"
+    },
+    {
+      "name": "CactusChestplateRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cactus_chestplate_recipe"
+    },
+    {
+      "name": "CactusLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cactus_leggings_recipe"
+    },
+    {
+      "name": "CactusBootsRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cactus_boots_recipe"
+    },
+    {
+      "name": "SugarcaneArmour",
+      "type": "armor",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugarcane_armour",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DeadGrass",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_grass"
+    },
+    {
+      "name": "CherryLog",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_log"
+    },
+    {
+      "name": "CherryLeaves",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_leaves"
+    },
+    {
+      "name": "CherryPlanks",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks"
+    },
+    {
+      "name": "CherryForest",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_forest"
+    },
+    {
+      "name": "DirtWithCherryLeaves",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_with_cherry_leaves"
+    },
+    {
+      "name": "CherryDirt",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_dirt"
+    },
+    {
+      "name": "CherryLogToPlanks",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_log_to_planks"
+    },
+    {
+      "name": "CherrySlab",
+      "type": "block",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_slab"
+    },
+    {
+      "name": "CherryStairs",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_stairs"
+    },
+    {
+      "name": "CherryPlanksToSlab",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_slab"
+    },
+    {
+      "name": "CherryPlanksToStairs",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_stairs"
+    },
+    {
+      "name": "CherryPlanksToSticks",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_sticks"
+    },
+    {
+      "name": "CherryFence",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_fence"
+    },
+    {
+      "name": "CherryPlanksToFence",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_fence"
+    },
+    {
+      "name": "CherryDoor",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_door"
+    },
+    {
+      "name": "CherryPlanksToDoor",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_door"
+    },
+    {
+      "name": "CherryPlanksToAxe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_axe"
+    },
+    {
+      "name": "CherryPlanksToPickaxe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_pickaxe"
+    },
+    {
+      "name": "CherryPlanksToSword",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_sword"
+    },
+    {
+      "name": "CherryPlanksToHoe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_hoe"
+    },
+    {
+      "name": "CherryPlanksToShovel",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_planks_to_shovel"
+    },
+    {
+      "name": "CherryBiomeEnter",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cherry_biome_enter"
+    },
+    {
+      "name": "DeadBiome",
+      "type": "biome",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dead_biome"
+    },
+    {
+      "name": "FlowerCowCoughsMoobloom",
+      "type": "mob",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flower_cow_coughs_moobloom"
+    },
+    {
+      "name": "RiftTundraWorld",
+      "type": "dimension",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rift_tundra_world"
+    },
+    {
+      "name": "EnterRiftTundraDimension",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enter_rift_tundra_dimension"
+    },
+    {
+      "name": "FreezingRiftOre",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_ore"
+    },
+    {
+      "name": "FreezingRiftIngot",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_ingot"
+    },
+    {
+      "name": "FreezingFusionTable",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_fusion_table"
+    },
+    {
+      "name": "FreezingFusionTableGui",
+      "type": "gui",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_fusion_table_gui"
+    },
+    {
+      "name": "FreezingFusionTableTick",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_fusion_table_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreezingRiftIngotToRiftTundraLighter",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_ingot_to_rift_tundra_lighter"
+    },
+    {
+      "name": "FreezingFusionTableDisplayTick",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_fusion_table_display_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FreezingToolsPickaxe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_pickaxe"
+    },
+    {
+      "name": "FreezingToolsAxe",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_axe"
+    },
+    {
+      "name": "FreezingToolsSword",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_sword"
+    },
+    {
+      "name": "FreezingToolsShovel",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_shovel"
+    },
+    {
+      "name": "FreezingToolsHoe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_hoe"
+    },
+    {
+      "name": "FreezingToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_pickaxe_recipe"
+    },
+    {
+      "name": "FreezingToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_axe_recipe"
+    },
+    {
+      "name": "FreezingToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_sword_recipe"
+    },
+    {
+      "name": "FreezingToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_shovel_recipe"
+    },
+    {
+      "name": "FreezingToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_tools_hoe_recipe"
+    },
+    {
+      "name": "LemonWood",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_wood"
+    },
+    {
+      "name": "LemonLog",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_log"
+    },
+    {
+      "name": "LemonPlanks",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_planks"
+    },
+    {
+      "name": "LemonLeaves",
+      "type": "block",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_leaves"
+    },
+    {
+      "name": "LemonStairs",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_stairs"
+    },
+    {
+      "name": "LemonSlab",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_slab"
+    },
+    {
+      "name": "LemonFence",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_fence"
+    },
+    {
+      "name": "LemonFenceGate",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_fence_gate"
+    },
+    {
+      "name": "LemonItemsTag",
+      "type": "tag",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_items_tag"
+    },
+    {
+      "name": "LemonWoodRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_wood_recipe"
+    },
+    {
+      "name": "LemonPlanksRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_planks_recipe"
+    },
+    {
+      "name": "LemonStairsRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_stairs_recipe"
+    },
+    {
+      "name": "LemonSlabRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_slab_recipe"
+    },
+    {
+      "name": "LemonFenceRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_fence_recipe"
+    },
+    {
+      "name": "LemonFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_fence_gate_recipe"
+    },
+    {
+      "name": "LemonStickRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_stick_recipe"
+    },
+    {
+      "name": "LemonTreeBiome",
+      "type": "biome",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lemon_tree_biome"
+    },
+    {
+      "name": "FreezingRiftArmor",
+      "type": "armor",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FreezingRiftArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_armor_helmet_recipe"
+    },
+    {
+      "name": "FreezingRiftArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_armor_body_recipe"
+    },
+    {
+      "name": "FreezingRiftArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_armor_leggings_recipe"
+    },
+    {
+      "name": "FreezingRiftArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freezing_rift_armor_boots_recipe"
+    },
+    {
+      "name": "DarkerWood",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_wood"
+    },
+    {
+      "name": "DarkerLog",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_log"
+    },
+    {
+      "name": "DarkerPlanks",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_planks"
+    },
+    {
+      "name": "DarkerLeaves",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_leaves"
+    },
+    {
+      "name": "DarkerStairs",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_stairs"
+    },
+    {
+      "name": "DarkerSlab",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_slab"
+    },
+    {
+      "name": "DarkerFence",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_fence"
+    },
+    {
+      "name": "DarkerFenceGate",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_fence_gate"
+    },
+    {
+      "name": "DarkerItemsTag",
+      "type": "tag",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_items_tag"
+    },
+    {
+      "name": "DarkerWoodRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_wood_recipe"
+    },
+    {
+      "name": "DarkerPlanksRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_planks_recipe"
+    },
+    {
+      "name": "DarkerStairsRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_stairs_recipe"
+    },
+    {
+      "name": "DarkerSlabRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_slab_recipe"
+    },
+    {
+      "name": "DarkerFenceRecipe",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_fence_recipe"
+    },
+    {
+      "name": "DarkerFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_fence_gate_recipe"
+    },
+    {
+      "name": "DarkerStickRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_stick_recipe"
+    },
+    {
+      "name": "DarkerArmor",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DarkerArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_armor_helmet_recipe"
+    },
+    {
+      "name": "DarkerArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_armor_body_recipe"
+    },
+    {
+      "name": "DarkerArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_armor_leggings_recipe"
+    },
+    {
+      "name": "DarkerArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "darker_armor_boots_recipe"
+    },
+    {
+      "name": "Unknownium",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium"
+    },
+    {
+      "name": "UnknowniumOre",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_ore"
+    },
+    {
+      "name": "UnknowniumBlock",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_block"
+    },
+    {
+      "name": "UnknowniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_ore_block_recipe"
+    },
+    {
+      "name": "UnknowniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_block_ore_recipe"
+    },
+    {
+      "name": "UnknowniumOreSmelting",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_ore_smelting"
+    },
+    {
+      "name": "UnknowniumPickaxe",
+      "type": "tool",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_pickaxe"
+    },
+    {
+      "name": "UnknowniumAxe",
+      "type": "tool",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_axe"
+    },
+    {
+      "name": "UnknowniumSword",
+      "type": "tool",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_sword"
+    },
+    {
+      "name": "UnknowniumShovel",
+      "type": "tool",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_shovel"
+    },
+    {
+      "name": "UnknowniumHoe",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_hoe"
+    },
+    {
+      "name": "UnknowniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_pickaxe_recipe"
+    },
+    {
+      "name": "UnknowniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_axe_recipe"
+    },
+    {
+      "name": "UnknowniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_sword_recipe"
+    },
+    {
+      "name": "UnknowniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_shovel_recipe"
+    },
+    {
+      "name": "UnknowniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_hoe_recipe"
+    },
+    {
+      "name": "UnknowniumArmor",
+      "type": "armor",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "UnknowniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_armor_helmet_recipe"
+    },
+    {
+      "name": "UnknowniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_armor_body_recipe"
+    },
+    {
+      "name": "UnknowniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_armor_leggings_recipe"
+    },
+    {
+      "name": "UnknowniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "unknownium_armor_boots_recipe"
+    },
+    {
+      "name": "Phantium",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium"
+    },
+    {
+      "name": "PhantiumOre",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_ore"
+    },
+    {
+      "name": "PhantiumBlock",
+      "type": "block",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_block"
+    },
+    {
+      "name": "PhantiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_ore_block_recipe"
+    },
+    {
+      "name": "PhantiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_block_ore_recipe"
+    },
+    {
+      "name": "PhantiumOreSmelting",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_ore_smelting"
+    },
+    {
+      "name": "PhantiumPickaxe",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_pickaxe"
+    },
+    {
+      "name": "PhantiumAxe",
+      "type": "tool",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_axe"
+    },
+    {
+      "name": "PhantiumSword",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_sword"
+    },
+    {
+      "name": "PhantiumShovel",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_shovel"
+    },
+    {
+      "name": "PhantiumHoe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_hoe"
+    },
+    {
+      "name": "PhantiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_pickaxe_recipe"
+    },
+    {
+      "name": "PhantiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_axe_recipe"
+    },
+    {
+      "name": "PhantiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_sword_recipe"
+    },
+    {
+      "name": "PhantiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_shovel_recipe"
+    },
+    {
+      "name": "PhantiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_hoe_recipe"
+    },
+    {
+      "name": "PhantiumArmor",
+      "type": "armor",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PhantiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_armor_helmet_recipe"
+    },
+    {
+      "name": "PhantiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_armor_body_recipe"
+    },
+    {
+      "name": "PhantiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_armor_leggings_recipe"
+    },
+    {
+      "name": "PhantiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "phantium_armor_boots_recipe"
+    },
+    {
+      "name": "Anotherium",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium"
+    },
+    {
+      "name": "AnotheriumOre",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_ore"
+    },
+    {
+      "name": "AnotheriumBlock",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_block"
+    },
+    {
+      "name": "AnotheriumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_ore_block_recipe"
+    },
+    {
+      "name": "AnotheriumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_block_ore_recipe"
+    },
+    {
+      "name": "AnotheriumOreSmelting",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_ore_smelting"
+    },
+    {
+      "name": "AnotheriumPickaxe",
+      "type": "tool",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_pickaxe"
+    },
+    {
+      "name": "AnotheriumAxe",
+      "type": "tool",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_axe"
+    },
+    {
+      "name": "AnotheriumSword",
+      "type": "tool",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_sword"
+    },
+    {
+      "name": "AnotheriumShovel",
+      "type": "tool",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_shovel"
+    },
+    {
+      "name": "AnotheriumHoe",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_hoe"
+    },
+    {
+      "name": "AnotheriumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_pickaxe_recipe"
+    },
+    {
+      "name": "AnotheriumAxeRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_axe_recipe"
+    },
+    {
+      "name": "AnotheriumSwordRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_sword_recipe"
+    },
+    {
+      "name": "AnotheriumShovelRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_shovel_recipe"
+    },
+    {
+      "name": "AnotheriumHoeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_hoe_recipe"
+    },
+    {
+      "name": "AnotheriumArmor",
+      "type": "armor",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AnotheriumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_armor_helmet_recipe"
+    },
+    {
+      "name": "AnotheriumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_armor_body_recipe"
+    },
+    {
+      "name": "AnotheriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_armor_leggings_recipe"
+    },
+    {
+      "name": "AnotheriumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anotherium_armor_boots_recipe"
+    },
+    {
+      "name": "Pekoium",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium"
+    },
+    {
+      "name": "PekoiumOre",
+      "type": "block",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_ore"
+    },
+    {
+      "name": "PekoiumBlock",
+      "type": "block",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_block"
+    },
+    {
+      "name": "PekoiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_ore_block_recipe"
+    },
+    {
+      "name": "PekoiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_block_ore_recipe"
+    },
+    {
+      "name": "PekoiumOreSmelting",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_ore_smelting"
+    },
+    {
+      "name": "PekoiumPickaxe",
+      "type": "tool",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_pickaxe"
+    },
+    {
+      "name": "PekoiumAxe",
+      "type": "tool",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_axe"
+    },
+    {
+      "name": "PekoiumSword",
+      "type": "tool",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_sword"
+    },
+    {
+      "name": "PekoiumShovel",
+      "type": "tool",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_shovel"
+    },
+    {
+      "name": "PekoiumHoe",
+      "type": "tool",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_hoe"
+    },
+    {
+      "name": "PekoiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_pickaxe_recipe"
+    },
+    {
+      "name": "PekoiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_axe_recipe"
+    },
+    {
+      "name": "PekoiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_sword_recipe"
+    },
+    {
+      "name": "PekoiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_shovel_recipe"
+    },
+    {
+      "name": "PekoiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_hoe_recipe"
+    },
+    {
+      "name": "PekoiumArmor",
+      "type": "armor",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PekoiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_armor_helmet_recipe"
+    },
+    {
+      "name": "PekoiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_armor_body_recipe"
+    },
+    {
+      "name": "PekoiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_armor_leggings_recipe"
+    },
+    {
+      "name": "PekoiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pekoium_armor_boots_recipe"
+    },
+    {
+      "name": "Rdium",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium"
+    },
+    {
+      "name": "RdiumOre",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_ore"
+    },
+    {
+      "name": "RdiumBlock",
+      "type": "block",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_block"
+    },
+    {
+      "name": "RdiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_ore_block_recipe"
+    },
+    {
+      "name": "RdiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_block_ore_recipe"
+    },
+    {
+      "name": "RdiumOreSmelting",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_ore_smelting"
+    },
+    {
+      "name": "RdiumPickaxe",
+      "type": "tool",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_pickaxe"
+    },
+    {
+      "name": "RdiumAxe",
+      "type": "tool",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_axe"
+    },
+    {
+      "name": "RdiumSword",
+      "type": "tool",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_sword"
+    },
+    {
+      "name": "RdiumShovel",
+      "type": "tool",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_shovel"
+    },
+    {
+      "name": "RdiumHoe",
+      "type": "tool",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_hoe"
+    },
+    {
+      "name": "RdiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_pickaxe_recipe"
+    },
+    {
+      "name": "RdiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_axe_recipe"
+    },
+    {
+      "name": "RdiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_sword_recipe"
+    },
+    {
+      "name": "RdiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_shovel_recipe"
+    },
+    {
+      "name": "RdiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_hoe_recipe"
+    },
+    {
+      "name": "RdiumArmor",
+      "type": "armor",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RdiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_armor_helmet_recipe"
+    },
+    {
+      "name": "RdiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_armor_body_recipe"
+    },
+    {
+      "name": "RdiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_armor_leggings_recipe"
+    },
+    {
+      "name": "RdiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rdium_armor_boots_recipe"
+    },
+    {
+      "name": "Tayrium",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium"
+    },
+    {
+      "name": "TayriumOre",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_ore"
+    },
+    {
+      "name": "TayriumBlock",
+      "type": "block",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_block"
+    },
+    {
+      "name": "TayriumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_ore_block_recipe"
+    },
+    {
+      "name": "TayriumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_block_ore_recipe"
+    },
+    {
+      "name": "TayriumOreSmelting",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_ore_smelting"
+    },
+    {
+      "name": "TayriumPickaxe",
+      "type": "tool",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_pickaxe"
+    },
+    {
+      "name": "TayriumAxe",
+      "type": "tool",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_axe"
+    },
+    {
+      "name": "TayriumSword",
+      "type": "tool",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_sword"
+    },
+    {
+      "name": "TayriumShovel",
+      "type": "tool",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_shovel"
+    },
+    {
+      "name": "TayriumHoe",
+      "type": "tool",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_hoe"
+    },
+    {
+      "name": "TayriumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_pickaxe_recipe"
+    },
+    {
+      "name": "TayriumAxeRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_axe_recipe"
+    },
+    {
+      "name": "TayriumSwordRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_sword_recipe"
+    },
+    {
+      "name": "TayriumShovelRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_shovel_recipe"
+    },
+    {
+      "name": "TayriumHoeRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_hoe_recipe"
+    },
+    {
+      "name": "TayriumArmor",
+      "type": "armor",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TayriumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_armor_helmet_recipe"
+    },
+    {
+      "name": "TayriumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_armor_body_recipe"
+    },
+    {
+      "name": "TayriumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_armor_leggings_recipe"
+    },
+    {
+      "name": "TayriumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tayrium_armor_boots_recipe"
+    },
+    {
+      "name": "Play2ium",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium"
+    },
+    {
+      "name": "Play2iumOre",
+      "type": "block",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_ore"
+    },
+    {
+      "name": "Play2iumBlock",
+      "type": "block",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_block"
+    },
+    {
+      "name": "Play2iumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_ore_block_recipe"
+    },
+    {
+      "name": "Play2iumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_block_ore_recipe"
+    },
+    {
+      "name": "Play2iumOreSmelting",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_ore_smelting"
+    },
+    {
+      "name": "Play2iumPickaxe",
+      "type": "tool",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_pickaxe"
+    },
+    {
+      "name": "Play2iumAxe",
+      "type": "tool",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_axe"
+    },
+    {
+      "name": "Play2iumSword",
+      "type": "tool",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_sword"
+    },
+    {
+      "name": "Play2iumShovel",
+      "type": "tool",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_shovel"
+    },
+    {
+      "name": "Play2iumHoe",
+      "type": "tool",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_hoe"
+    },
+    {
+      "name": "Play2iumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_pickaxe_recipe"
+    },
+    {
+      "name": "Play2iumAxeRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_axe_recipe"
+    },
+    {
+      "name": "Play2iumSwordRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_sword_recipe"
+    },
+    {
+      "name": "Play2iumShovelRecipe",
+      "type": "recipe",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_shovel_recipe"
+    },
+    {
+      "name": "Play2iumHoeRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_hoe_recipe"
+    },
+    {
+      "name": "Play2iumArmor",
+      "type": "armor",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Play2iumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_armor_helmet_recipe"
+    },
+    {
+      "name": "Play2iumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_armor_body_recipe"
+    },
+    {
+      "name": "Play2iumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_armor_leggings_recipe"
+    },
+    {
+      "name": "Play2iumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "play_2ium_armor_boots_recipe"
+    },
+    {
+      "name": "Towelium",
+      "type": "item",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium"
+    },
+    {
+      "name": "ToweliumOre",
+      "type": "block",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_ore"
+    },
+    {
+      "name": "ToweliumBlock",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_block"
+    },
+    {
+      "name": "ToweliumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_ore_block_recipe"
+    },
+    {
+      "name": "ToweliumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_block_ore_recipe"
+    },
+    {
+      "name": "ToweliumOreSmelting",
+      "type": "recipe",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_ore_smelting"
+    },
+    {
+      "name": "ToweliumPickaxe",
+      "type": "tool",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_pickaxe"
+    },
+    {
+      "name": "ToweliumAxe",
+      "type": "tool",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_axe"
+    },
+    {
+      "name": "ToweliumSword",
+      "type": "tool",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_sword"
+    },
+    {
+      "name": "ToweliumShovel",
+      "type": "tool",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_shovel"
+    },
+    {
+      "name": "ToweliumHoe",
+      "type": "tool",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_hoe"
+    },
+    {
+      "name": "ToweliumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_pickaxe_recipe"
+    },
+    {
+      "name": "ToweliumAxeRecipe",
+      "type": "recipe",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_axe_recipe"
+    },
+    {
+      "name": "ToweliumSwordRecipe",
+      "type": "recipe",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_sword_recipe"
+    },
+    {
+      "name": "ToweliumShovelRecipe",
+      "type": "recipe",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_shovel_recipe"
+    },
+    {
+      "name": "ToweliumHoeRecipe",
+      "type": "recipe",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_hoe_recipe"
+    },
+    {
+      "name": "ToweliumArmor",
+      "type": "armor",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "ToweliumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_armor_helmet_recipe"
+    },
+    {
+      "name": "ToweliumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_armor_body_recipe"
+    },
+    {
+      "name": "ToweliumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_armor_leggings_recipe"
+    },
+    {
+      "name": "ToweliumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "towelium_armor_boots_recipe"
+    },
+    {
+      "name": "Fearlessium",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium"
+    },
+    {
+      "name": "FearlessiumOre",
+      "type": "block",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_ore"
+    },
+    {
+      "name": "FearlessiumBlock",
+      "type": "block",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_block"
+    },
+    {
+      "name": "FearlessiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_ore_block_recipe"
+    },
+    {
+      "name": "FearlessiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_block_ore_recipe"
+    },
+    {
+      "name": "FearlessiumOreSmelting",
+      "type": "recipe",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_ore_smelting"
+    },
+    {
+      "name": "FearlessiumPickaxe",
+      "type": "tool",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_pickaxe"
+    },
+    {
+      "name": "FearlessiumAxe",
+      "type": "tool",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_axe"
+    },
+    {
+      "name": "FearlessiumSword",
+      "type": "tool",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_sword"
+    },
+    {
+      "name": "FearlessiumShovel",
+      "type": "tool",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_shovel"
+    },
+    {
+      "name": "FearlessiumHoe",
+      "type": "tool",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_hoe"
+    },
+    {
+      "name": "FearlessiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_pickaxe_recipe"
+    },
+    {
+      "name": "FearlessiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_axe_recipe"
+    },
+    {
+      "name": "FearlessiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_sword_recipe"
+    },
+    {
+      "name": "FearlessiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_shovel_recipe"
+    },
+    {
+      "name": "FearlessiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_hoe_recipe"
+    },
+    {
+      "name": "FearlessiumArmor",
+      "type": "armor",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FearlessiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_armor_helmet_recipe"
+    },
+    {
+      "name": "FearlessiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_armor_body_recipe"
+    },
+    {
+      "name": "FearlessiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_armor_leggings_recipe"
+    },
+    {
+      "name": "FearlessiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fearlessium_armor_boots_recipe"
+    },
+    {
+      "name": "Chelium",
+      "type": "item",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium"
+    },
+    {
+      "name": "CheliumOre",
+      "type": "block",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_ore"
+    },
+    {
+      "name": "CheliumBlock",
+      "type": "block",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_block"
+    },
+    {
+      "name": "CheliumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_ore_block_recipe"
+    },
+    {
+      "name": "CheliumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_block_ore_recipe"
+    },
+    {
+      "name": "CheliumOreSmelting",
+      "type": "recipe",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_ore_smelting"
+    },
+    {
+      "name": "CheliumPickaxe",
+      "type": "tool",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_pickaxe"
+    },
+    {
+      "name": "CheliumAxe",
+      "type": "tool",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_axe"
+    },
+    {
+      "name": "CheliumSword",
+      "type": "tool",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_sword"
+    },
+    {
+      "name": "CheliumShovel",
+      "type": "tool",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_shovel"
+    },
+    {
+      "name": "CheliumHoe",
+      "type": "tool",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_hoe"
+    },
+    {
+      "name": "CheliumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_pickaxe_recipe"
+    },
+    {
+      "name": "CheliumAxeRecipe",
+      "type": "recipe",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_axe_recipe"
+    },
+    {
+      "name": "CheliumSwordRecipe",
+      "type": "recipe",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_sword_recipe"
+    },
+    {
+      "name": "CheliumShovelRecipe",
+      "type": "recipe",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_shovel_recipe"
+    },
+    {
+      "name": "CheliumHoeRecipe",
+      "type": "recipe",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_hoe_recipe"
+    },
+    {
+      "name": "CheliumArmor",
+      "type": "armor",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CheliumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_armor_helmet_recipe"
+    },
+    {
+      "name": "CheliumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_armor_body_recipe"
+    },
+    {
+      "name": "CheliumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_armor_leggings_recipe"
+    },
+    {
+      "name": "CheliumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chelium_armor_boots_recipe"
+    },
+    {
+      "name": "Attackium",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium"
+    },
+    {
+      "name": "AttackiumOre",
+      "type": "block",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_ore"
+    },
+    {
+      "name": "AttackiumBlock",
+      "type": "block",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_block"
+    },
+    {
+      "name": "AttackiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_ore_block_recipe"
+    },
+    {
+      "name": "AttackiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_block_ore_recipe"
+    },
+    {
+      "name": "AttackiumOreSmelting",
+      "type": "recipe",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_ore_smelting"
+    },
+    {
+      "name": "AttackiumPickaxe",
+      "type": "tool",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_pickaxe"
+    },
+    {
+      "name": "AttackiumAxe",
+      "type": "tool",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_axe"
+    },
+    {
+      "name": "AttackiumSword",
+      "type": "tool",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_sword"
+    },
+    {
+      "name": "AttackiumShovel",
+      "type": "tool",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_shovel"
+    },
+    {
+      "name": "AttackiumHoe",
+      "type": "tool",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_hoe"
+    },
+    {
+      "name": "AttackiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_pickaxe_recipe"
+    },
+    {
+      "name": "AttackiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_axe_recipe"
+    },
+    {
+      "name": "AttackiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_sword_recipe"
+    },
+    {
+      "name": "AttackiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_shovel_recipe"
+    },
+    {
+      "name": "AttackiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_hoe_recipe"
+    },
+    {
+      "name": "AttackiumArmor",
+      "type": "armor",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AttackiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_armor_helmet_recipe"
+    },
+    {
+      "name": "AttackiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_armor_body_recipe"
+    },
+    {
+      "name": "AttackiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_armor_leggings_recipe"
+    },
+    {
+      "name": "AttackiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "attackium_armor_boots_recipe"
+    },
+    {
+      "name": "PhilosopheriteIngot",
+      "type": "item",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_ingot"
+    },
+    {
+      "name": "PhilosopheriteOre",
+      "type": "block",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_ore"
+    },
+    {
+      "name": "PhilosopheriteBlock",
+      "type": "block",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_block"
+    },
+    {
+      "name": "PhilosopheriteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_ore_block_recipe"
+    },
+    {
+      "name": "PhilosopheriteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_block_ore_recipe"
+    },
+    {
+      "name": "PhilosopheriteOreSmelting",
+      "type": "recipe",
+      "sortid": 344,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_ore_smelting"
+    },
+    {
+      "name": "PhilosopheritePickaxe",
+      "type": "tool",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_pickaxe"
+    },
+    {
+      "name": "PhilosopheriteAxe",
+      "type": "tool",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_axe"
+    },
+    {
+      "name": "PhilosopheriteSword",
+      "type": "tool",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_sword"
+    },
+    {
+      "name": "PhilosopheriteShovel",
+      "type": "tool",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_shovel"
+    },
+    {
+      "name": "PhilosopheriteHoe",
+      "type": "tool",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_hoe"
+    },
+    {
+      "name": "PhilosopheritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_pickaxe_recipe"
+    },
+    {
+      "name": "PhilosopheriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_axe_recipe"
+    },
+    {
+      "name": "PhilosopheriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_sword_recipe"
+    },
+    {
+      "name": "PhilosopheriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_shovel_recipe"
+    },
+    {
+      "name": "PhilosopheriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_hoe_recipe"
+    },
+    {
+      "name": "PhilosopheriteArmor",
+      "type": "armor",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PhilosopheriteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_armor_helmet_recipe"
+    },
+    {
+      "name": "PhilosopheriteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_armor_body_recipe"
+    },
+    {
+      "name": "PhilosopheriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_armor_leggings_recipe"
+    },
+    {
+      "name": "PhilosopheriteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "philosopherite_armor_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.the_nine.freezing_tools_sword": "FreezingTools Sword",
+      "item.the_nine.unknownium_axe": "Unknownium Axe",
+      "item.the_nine.phantium_sword": "Phantium Sword",
+      "biome.the_nine.man_made_desert": "Man Made Desert",
+      "biome.the_nine.rift_tundra": "Rift Tundra",
+      "item.the_nine.anotherium_pickaxe": "Anotherium Pickaxe",
+      "item.the_nine.rdium_pickaxe": "Rdium Pickaxe",
+      "item.the_nine.pekoium_armor_chestplate": "Pekoium Chestplate",
+      "block.the_nine.lemon_wood": "Lemon Wood",
+      "item.the_nine.chelium_sword": "Chelium Sword",
+      "item.the_nine.sugarcane_armour_helmet": "Sugarcane Helmet",
+      "item.the_nine.fearlessium_armor_chestplate": "Fearlessium Chestplate",
+      "item.the_nine.fearlessium_armor_boots": "Fearlessium Boots",
+      "item.the_nine.play_2ium_armor_boots": "Play2ium Boots",
+      "item.the_nine.anotherium_armor_leggings": "Anotherium Leggings",
+      "item.the_nine.towelium_shovel": "Towelium Shovel",
+      "item.the_nine.anotherium_armor_chestplate": "Anotherium Chestplate",
+      "item.the_nine.pekoium_pickaxe": "Pekoium Pickaxe",
+      "item.the_nine.chelium_armor_helmet": "Chelium Helmet",
+      "item.the_nine.rdium_armor_leggings": "Rdium Leggings",
+      "item.the_nine.towelium_armor_helmet": "Towelium Helmet",
+      "block.the_nine.tayrium_ore": "Tayrium Ore",
+      "item.the_nine.freezing_water_bucket": "FreezingWater Bucket",
+      "block.the_nine.darker_leaves": "Darker Leaves",
+      "block.the_nine.cherry_slab": "Cherry Slab",
+      "item.the_nine.phantium_armor_helmet": "Phantium Helmet",
+      "item.the_nine.rdium_hoe": "Rdium Hoe",
+      "item.the_nine.fearlessium_shovel": "Fearlessium Shovel",
+      "item.the_nine.phantium_armor_boots": "Phantium Boots",
+      "item.the_nine.philosopherite_shovel": "Philosopherite Shovel",
+      "block.the_nine.darker_wood": "Darker Wood",
+      "item.the_nine.unknownium_armor_chestplate": "Unknownium Chestplate",
+      "block.the_nine.play_2ium_ore": "Play2ium Ore",
+      "item.the_nine.play_2ium_pickaxe": "Play2ium Pickaxe",
+      "item.the_nine.fearlessium_armor_leggings": "Fearlessium Leggings",
+      "block.the_nine.freezing_stone": "Freezing Stone",
+      "item.the_nine.freezing_rift_armor_helmet": "FreezingRift Helmet",
+      "item.the_nine.fearlessium_pickaxe": "Fearlessium Pickaxe",
+      "block.the_nine.lemon_stairs": "Lemon Stairs",
+      "block.the_nine.darker_fence": "Darker Fence",
+      "item.the_nine.attackium_shovel": "Attackium Shovel",
+      "biome.the_nine.dead_biome": "Dead Biome",
+      "item.the_nine.fearlessium_axe": "Fearlessium Axe",
+      "block.the_nine.philosopherite_ore": "Philosopherite Ore",
+      "item.the_nine.towelium_axe": "Towelium Axe",
+      "item.the_nine.towelium_sword": "Towelium Sword",
+      "block.the_nine.anotherium_block": "Block of Anotherium",
+      "advancements.muffin_eat.descr": "Eat a muffin",
+      "item.the_nine.anotherium_armor_boots": "Anotherium Boots",
+      "block.the_nine.towelium_ore": "Towelium Ore",
+      "item.the_nine.chelium": "Chelium",
+      "advancements.cractus.descr": "Welcome to the Man made desert with poorly generated terrain",
+      "item.the_nine.towelium_armor_chestplate": "Towelium Chestplate",
+      "block.the_nine.dead_grass": "Dead Grass",
+      "block.the_nine.cherry_dirt": "Cherry Dirt",
+      "item.the_nine.attackium_sword": "Attackium Sword",
+      "block.the_nine.play_2ium_block": "Block of Play2ium",
+      "advancements.enter_rift_tundra_dimension.descr": "More secrets to be discovered.....",
+      "item.the_nine.fearlessium_hoe": "Fearlessium Hoe",
+      "block.the_nine.attackium_ore": "Attackium Ore",
+      "block.the_nine.anotherium_ore": "Anotherium Ore",
+      "item.the_nine.tayrium_pickaxe": "Tayrium Pickaxe",
+      "item.the_nine.pekoium_hoe": "Pekoium Hoe",
+      "item.the_nine.darker_armor_leggings": "Darker Leggings",
+      "item.the_nine.phantium_armor_leggings": "Phantium Leggings",
+      "block.the_nine.lemon_slab": "Lemon Slab",
+      "block.the_nine.cherry_door": "Cherry Door",
+      "block.the_nine.darker_fence_gate": "Darker Fence Gate",
+      "item.the_nine.play_2ium_shovel": "Play2ium Shovel",
+      "item.the_nine.freezing_tools_hoe": "Freezing Rift Hoe",
+      "item.the_nine.tayrium_armor_chestplate": "Tayrium Chestplate",
+      "item.the_nine.cactus_armour_chestplate": "Cactus Armour Body",
+      "block.the_nine.freezing_fusion_table": "Freezing Fusion Table",
+      "item.the_nine.anotherium": "Anotherium",
+      "item.the_nine.fearlessium": "Fearlessium",
+      "item.the_nine.phantium": "Phantium",
+      "block.the_nine.pekoium_ore": "Pekoium Ore",
+      "item.the_nine.pekoium_sword": "Pekoium Sword",
+      "block.the_nine.freezing_rift_ore": "Freezing Rift Ore",
+      "item.the_nine.rdium_sword": "Rdium Sword",
+      "item.the_nine.play_2ium_axe": "Play2ium Axe",
+      "entity.the_nine.flower_cow_coughs_moobloom": "Golden Cow",
+      "item.the_nine.freezing_rift_armor_boots": "FreezingRift Boots",
+      "advancements.muffin_eat.title": "Muffin!",
+      "block.the_nine.fearlessium_ore": "Fearlessium Ore",
+      "item.the_nine.tayrium_axe": "Tayrium Axe",
+      "item.the_nine.pekoium": "Pekoium",
+      "item.the_nine.philosopherite_hoe": "Philosopherite Hoe",
+      "advancements.nine_installed.title": "The Nine",
+      "item.the_nine.muffin": "Muffin",
+      "item.the_nine.cactus_armour_leggings": "Cactus Armour Leggings",
+      "block.the_nine.unknownium_block": "Block of Unknownium",
+      "block.the_nine.dirt_with_cherry_leaves": "Dirt With Cherry Leaves",
+      "item.the_nine.chelium_axe": "Chelium Axe",
+      "item.the_nine.pekoium_armor_boots": "Pekoium Boots",
+      "block.the_nine.cherry_planks": "Cherry Planks",
+      "block.the_nine.lemon_leaves": "Lemon Leaves",
+      "item.the_nine.anotherium_axe": "Anotherium Axe",
+      "item.the_nine.darker_armor_helmet": "Darker Helmet",
+      "item.the_nine.phantium_axe": "Phantium Axe",
+      "item.the_nine.flower_cow_coughs_moobloom_spawn_egg": "Golden Cow Spawn Egg",
+      "item.the_nine.chelium_armor_leggings": "Chelium Leggings",
+      "block.the_nine.tayrium_block": "Block of Tayrium",
+      "item.the_nine.philosopherite_sword": "Philosopherite Sword",
+      "item.the_nine.unknownium_armor_boots": "Unknownium Boots",
+      "item.the_nine.anotherium_shovel": "Anotherium Shovel",
+      "block.the_nine.cherry_log": "Cherry Log",
+      "item.the_nine.unknownium_armor_helmet": "Unknownium Helmet",
+      "item.the_nine.philosopherite_armor_boots": "Philosopherite Boots",
+      "item.the_nine.attackium_hoe": "Attackium Hoe",
+      "block.the_nine.towelium_block": "Block of Towelium",
+      "item.the_nine.phantium_armor_chestplate": "Phantium Chestplate",
+      "block.the_nine.darker_log": "Darker Log",
+      "item.the_nine.philosopherite_pickaxe": "Philosopherite Pickaxe",
+      "item.the_nine.tayrium_hoe": "Tayrium Hoe",
+      "advancements.rift_tundra_enter.descr": "What secrets could lie here...",
+      "block.the_nine.unknownium_ore": "Unknownium Ore",
+      "item.the_nine.attackium_pickaxe": "Attackium Pickaxe",
+      "advancements.enter_rift_tundra_dimension.title": "The rift tundra, Part 2",
+      "item.the_nine.tayrium_armor_helmet": "Tayrium Helmet",
+      "item.the_nine.towelium_armor_boots": "Towelium Boots",
+      "fluid.freezing_water": "FreezingWater",
+      "item.the_nine.attackium_armor_helmet": "Attackium Helmet",
+      "item.the_nine.play_2ium": "Play2ium",
+      "item.the_nine.tayrium": "Tayrium",
+      "advancements.cherry_biome_enter.descr": "Dont you mean cherry BLOSSOM?",
+      "item.the_nine.play_2ium_sword": "Play2ium Sword",
+      "block.the_nine.rdium_ore": "Rdium Ore",
+      "item.the_nine.play_2ium_armor_leggings": "Play2ium Leggings",
+      "item.the_nine.unknownium_pickaxe": "Unknownium Pickaxe",
+      "item.the_nine.phantium_pickaxe": "Phantium Pickaxe",
+      "biome.the_nine.lemon_tree_biome": "Lemon Tree Biome",
+      "item.the_nine.chelium_pickaxe": "Chelium Pickaxe",
+      "block.the_nine.philosopherite_block": "Block of Philosopherite",
+      "item.the_nine.rdium_axe": "Rdium Axe",
+      "item.the_nine.unknownium_shovel": "Unknownium Shovel",
+      "item.the_nine.chelium_armor_chestplate": "Chelium Chestplate",
+      "item.the_nine.unknownium": "Unknownium",
+      "item.the_nine.towelium_hoe": "Towelium Hoe",
+      "item.the_nine.tayrium_armor_leggings": "Tayrium Leggings",
+      "item.the_nine.unknownium_hoe": "Unknownium Hoe",
+      "item.the_nine.darker_armor_chestplate": "Darker Chestplate",
+      "block.the_nine.cherry_stairs": "Cherry Stairs",
+      "item.the_nine.sugarcane_armour_boots": "Sugarcane Boots",
+      "block.the_nine.man_made_sand": "Man Made Sand",
+      "item.the_nine.rdium_armor_chestplate": "Rdium Chestplate",
+      "advancements.nine_installed.descr": "You installed the nine mod",
+      "item.the_nine.play_2ium_hoe": "Play2ium Hoe",
+      "block.the_nine.lemon_log": "Lemon Log",
+      "item.the_nine.freezing_rift_armor_leggings": "FreezingRift Leggings",
+      "item.the_nine.freezing_rift_armor_chestplate": "FreezingRift Chestplate",
+      "item.the_nine.towelium": "Towelium",
+      "block.the_nine.attackium_block": "Block of Attackium",
+      "item.the_nine.attackium_armor_chestplate": "Attackium Chestplate",
+      "item.the_nine.towelium_armor_leggings": "Towelium Leggings",
+      "block.the_nine.phantium_block": "Block of Phantium",
+      "item.the_nine.chelium_shovel": "Chelium Shovel",
+      "item.the_nine.freezing_tools_axe": "FreezingTools Axe",
+      "item.the_nine.tayrium_armor_boots": "Tayrium Boots",
+      "block.the_nine.cherry_fence": "Cherry Fence",
+      "advancements.rift_tundra_enter.title": "The Rift Tundra",
+      "item.the_nine.towelium_pickaxe": "Towelium Pickaxe",
+      "item.the_nine.chelium_hoe": "Chelium Hoe",
+      "item.the_nine.pekoium_shovel": "Pekoium Shovel",
+      "item.the_nine.sugarcane_armour_chestplate": "Sugarcane Body",
+      "item.the_nine.rift_tundra_world": "Charged Freezing Ore",
+      "item.the_nine.freezing_tools_shovel": "FreezingTools Shovel",
+      "advancements.cherry_biome_enter.title": "ooooooo pretty!",
+      "item.the_nine.rdium_armor_helmet": "Rdium Helmet",
+      "item.the_nine.pekoium_armor_helmet": "Pekoium Helmet",
+      "item.the_nine.darker_armor_boots": "Darker Boots",
+      "item.the_nine.fearlessium_sword": "Fearlessium Sword",
+      "item.the_nine.tayrium_shovel": "Tayrium Shovel",
+      "block.the_nine.fearlessium_block": "Block of Fearlessium",
+      "item.the_nine.philosopherite_axe": "Philosopherite Axe",
+      "item.the_nine.attackium": "Attackium",
+      "item.the_nine.phantium_shovel": "Phantium Shovel",
+      "item.the_nine.philosopherite_armor_chestplate": "Philosopherite Chestplate",
+      "item.the_nine.chelium_armor_boots": "Chelium Boots",
+      "item.the_nine.anotherium_sword": "Anotherium Sword",
+      "block.the_nine.chelium_block": "Block of Chelium",
+      "item.the_nine.anotherium_armor_helmet": "Anotherium Helmet",
+      "item.the_nine.fearlessium_armor_helmet": "Fearlessium Helmet",
+      "block.the_nine.darker_planks": "Darker Planks",
+      "item.the_nine.play_2ium_armor_helmet": "Play2ium Helmet",
+      "item.the_nine.cactus_armour_helmet": "Cactus Armour Helmet",
+      "block.the_nine.darker_stairs": "Darker Stairs",
+      "item.the_nine.phantium_hoe": "Phantium Hoe",
+      "biome.the_nine.cherry_forest": "Cherry Forest",
+      "item.the_nine.play_2ium_armor_chestplate": "Play2ium Chestplate",
+      "block.the_nine.chelium_ore": "Chelium Ore",
+      "advancements.cractus.title": "Cractus!",
+      "item.the_nine.philosopherite_ingot": "Philosopherite",
+      "item.the_nine.rdium": "Rdium",
+      "item.the_nine.tayrium_sword": "Tayrium Sword",
+      "itemGroup.tabthe_nine_mod": "The Nine Mod",
+      "block.the_nine.lemon_planks": "Lemon Planks",
+      "item.the_nine.rdium_shovel": "Rdium Shovel",
+      "block.the_nine.cherry_leaves": "Cherry Leaves",
+      "item.the_nine.cactus_armour_boots": "Cactus Armour Boots",
+      "item.the_nine.anotherium_hoe": "Anotherium Hoe",
+      "item.the_nine.attackium_armor_boots": "Attackium Boots",
+      "block.the_nine.phantium_ore": "Phantium Ore",
+      "item.the_nine.attackium_axe": "Attackium Axe",
+      "item.the_nine.pekoium_armor_leggings": "Pekoium Leggings",
+      "item.the_nine.attackium_armor_leggings": "Attackium Leggings",
+      "item.the_nine.freezing_rift_ingot": "Freezing Rift Ingot",
+      "block.the_nine.lemon_fence": "Lemon Fence",
+      "item.the_nine.unknownium_armor_leggings": "Unknownium Leggings",
+      "item.the_nine.unknownium_sword": "Unknownium Sword",
+      "block.the_nine.lemon_fence_gate": "Lemon Fence Gate",
+      "item.the_nine.pekoium_axe": "Pekoium Axe",
+      "item.the_nine.sugarcane_armour_leggings": "Sugarcane Leggings",
+      "block.the_nine.pekoium_block": "Block of Pekoium",
+      "item.the_nine.freezing_tools_pickaxe": "FreezingTools Pickaxe",
+      "item.the_nine.philosopherite_armor_leggings": "Philosopherite Leggings",
+      "block.the_nine.darker_slab": "Darker Slab",
+      "item.the_nine.philosopherite_armor_helmet": "Philosopherite Helmet",
+      "block.the_nine.rdium_block": "Block of Rdium",
+      "item.the_nine.rdium_armor_boots": "Rdium Boots"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "the_nine",
+    "modName": "The Nine",
+    "version": "1.0.0",
+    "author": "bug73, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.thenine",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

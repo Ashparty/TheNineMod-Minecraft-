@@ -1,0 +1,26 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:phantium"
+    },
+    "2": {
+      "item": "the_nine:phantium"
+    },
+    "3": {
+      "item": "the_nine:phantium"
+    },
+    "5": {
+      "item": "the_nine:phantium"
+    }
+  },
+  "result": {
+    "item": "the_nine:phantium_armor_boots",
+    "count": 1
+  }
+}

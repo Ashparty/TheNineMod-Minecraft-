@@ -1,0 +1,39 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:chelium"
+    },
+    "2": {
+      "item": "the_nine:chelium"
+    },
+    "3": {
+      "item": "the_nine:chelium"
+    },
+    "4": {
+      "item": "the_nine:chelium"
+    },
+    "5": {
+      "item": "the_nine:chelium"
+    },
+    "6": {
+      "item": "the_nine:chelium"
+    },
+    "7": {
+      "item": "the_nine:chelium"
+    },
+    "8": {
+      "item": "the_nine:chelium"
+    }
+  },
+  "result": {
+    "item": "the_nine:chelium_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_nine:block/lemon_slab"
+    },
+    "type=top": {
+      "model": "the_nine:block/lemon_slab_top"
+    },
+    "type=double": {
+      "model": "the_nine:block/lemon_slab_full"
+    }
+  }
+}

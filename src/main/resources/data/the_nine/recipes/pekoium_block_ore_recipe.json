@@ -1,0 +1,13 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_nine:pekoium_block"
+    }
+  ],
+  "result": {
+    "item": "the_nine:pekoium",
+    "count": 9
+  }
+}

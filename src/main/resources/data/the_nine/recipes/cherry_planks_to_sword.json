@@ -1,0 +1,19 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_nine:cherry_planks"
+    },
+    {
+      "item": "the_nine:cherry_planks"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

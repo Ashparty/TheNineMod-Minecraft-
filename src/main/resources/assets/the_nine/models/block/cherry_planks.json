@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_nine:blocks/cherryplanksnew",
+    "up": "the_nine:blocks/cherryplanksnew",
+    "north": "the_nine:blocks/cherryplanksnew",
+    "east": "the_nine:blocks/cherryplanksnew",
+    "south": "the_nine:blocks/cherryplanksnew",
+    "west": "the_nine:blocks/cherryplanksnew",
+    "particle": "the_nine:blocks/cherryplanksnew"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Tayrium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TayriumArmor.legs"
+    },
+    "name": "tayrium_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

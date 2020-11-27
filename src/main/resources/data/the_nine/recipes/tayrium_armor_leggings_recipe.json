@@ -1,0 +1,36 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:tayrium"
+    },
+    "1": {
+      "item": "the_nine:tayrium"
+    },
+    "2": {
+      "item": "the_nine:tayrium"
+    },
+    "3": {
+      "item": "the_nine:tayrium"
+    },
+    "5": {
+      "item": "the_nine:tayrium"
+    },
+    "6": {
+      "item": "the_nine:tayrium"
+    },
+    "8": {
+      "item": "the_nine:tayrium"
+    }
+  },
+  "result": {
+    "item": "the_nine:tayrium_armor_leggings",
+    "count": 1
+  }
+}

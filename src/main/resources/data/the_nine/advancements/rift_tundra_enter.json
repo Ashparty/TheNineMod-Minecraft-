@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "the_nine:freezing_stone"
+    },
+    "title": {
+      "translate": "advancements.rift_tundra_enter.title"
+    },
+    "description": {
+      "translate": "advancements.rift_tundra_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rift_tundra_enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "the_nine:rift_tundra"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "the_nine:nine_installed"
+}

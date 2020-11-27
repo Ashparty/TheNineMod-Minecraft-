@@ -1,0 +1,26 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:chelium"
+    },
+    "2": {
+      "item": "the_nine:chelium"
+    },
+    "3": {
+      "item": "the_nine:chelium"
+    },
+    "5": {
+      "item": "the_nine:chelium"
+    }
+  },
+  "result": {
+    "item": "the_nine:chelium_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "the_nine:blocks/darker_planks",
+    "particle": "the_nine:blocks/darker_planks"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:fearlessium"
+    },
+    "2": {
+      "item": "the_nine:fearlessium"
+    },
+    "3": {
+      "item": "the_nine:fearlessium"
+    },
+    "4": {
+      "item": "the_nine:fearlessium"
+    },
+    "5": {
+      "item": "the_nine:fearlessium"
+    },
+    "6": {
+      "item": "the_nine:fearlessium"
+    },
+    "7": {
+      "item": "the_nine:fearlessium"
+    },
+    "8": {
+      "item": "the_nine:fearlessium"
+    }
+  },
+  "result": {
+    "item": "the_nine:fearlessium_armor_chestplate",
+    "count": 1
+  }
+}

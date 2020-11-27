@@ -1,0 +1,57 @@
+{
+  "_fv": 13,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "philosopherite_head",
+    "enableBody": true,
+    "textureBody": "philosopherite_body",
+    "enableLeggings": true,
+    "textureLeggings": "philosopherite_leggings",
+    "enableBoots": true,
+    "textureBoots": "philosopherite_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "philosopherite",
+    "helmetName": "Philosopherite Helmet",
+    "bodyName": "Philosopherite Chestplate",
+    "leggingsName": "Philosopherite Leggings",
+    "bootsName": "Philosopherite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 27,
+    "damageValueHelmet": 4,
+    "damageValueBody": 9,
+    "damageValueLeggings": 11,
+    "damageValueBoots": 4,
+    "enchantability": 16,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PhilosopheriteIngot"
+      }
+    ]
+  }
+}

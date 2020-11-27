@@ -1,0 +1,36 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:rdium"
+    },
+    "1": {
+      "item": "the_nine:rdium"
+    },
+    "2": {
+      "item": "the_nine:rdium"
+    },
+    "3": {
+      "item": "the_nine:rdium"
+    },
+    "5": {
+      "item": "the_nine:rdium"
+    },
+    "6": {
+      "item": "the_nine:rdium"
+    },
+    "8": {
+      "item": "the_nine:rdium"
+    }
+  },
+  "result": {
+    "item": "the_nine:rdium_armor_leggings",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:darker_log"
+    },
+    "1": {
+      "item": "the_nine:darker_log"
+    },
+    "2": {
+      "item": "the_nine:darker_log"
+    },
+    "3": {
+      "item": "the_nine:darker_log"
+    }
+  },
+  "result": {
+    "item": "the_nine:darker_wood",
+    "count": 3
+  }
+}

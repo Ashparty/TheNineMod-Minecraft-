@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkerPlanks"
+      },
+      {
+        "value": "CUSTOM:DarkerPlanks"
+      },
+      {
+        "value": "CUSTOM:DarkerPlanks"
+      },
+      {
+        "value": "CUSTOM:DarkerPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DarkerPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkerArmor.helmet"
+    },
+    "name": "darker_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

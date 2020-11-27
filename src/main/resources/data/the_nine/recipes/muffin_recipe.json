@@ -1,0 +1,42 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sugar"
+    },
+    "1": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "2": {
+      "item": "minecraft:sugar"
+    },
+    "3": {
+      "item": "minecraft:wheat"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "item": "minecraft:wheat"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "the_nine:muffin",
+    "count": 8
+  }
+}

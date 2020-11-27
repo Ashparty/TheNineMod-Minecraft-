@@ -1,0 +1,13 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_nine:rdium_block"
+    }
+  ],
+  "result": {
+    "item": "the_nine:rdium",
+    "count": 9
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "the_nine:blocks/attackium_ore_block",
+    "particle": "the_nine:blocks/attackium_ore_block"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:darker_planks"
+    },
+    "2": {
+      "item": "the_nine:darker_planks"
+    },
+    "3": {
+      "item": "the_nine:darker_planks"
+    },
+    "5": {
+      "item": "the_nine:darker_planks"
+    }
+  },
+  "result": {
+    "item": "the_nine:darker_armor_boots",
+    "count": 1
+  }
+}

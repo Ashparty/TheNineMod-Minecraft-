@@ -1,0 +1,42 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_nine:towelium"
+    },
+    "1": {
+      "item": "the_nine:towelium"
+    },
+    "2": {
+      "item": "the_nine:towelium"
+    },
+    "3": {
+      "item": "the_nine:towelium"
+    },
+    "4": {
+      "item": "the_nine:towelium"
+    },
+    "5": {
+      "item": "the_nine:towelium"
+    },
+    "6": {
+      "item": "the_nine:towelium"
+    },
+    "7": {
+      "item": "the_nine:towelium"
+    },
+    "8": {
+      "item": "the_nine:towelium"
+    }
+  },
+  "result": {
+    "item": "the_nine:towelium_block",
+    "count": 1
+  }
+}

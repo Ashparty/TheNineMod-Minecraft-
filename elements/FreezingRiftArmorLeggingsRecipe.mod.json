@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FreezingRiftIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FreezingRiftArmor.legs"
+    },
+    "name": "freezing_rift_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

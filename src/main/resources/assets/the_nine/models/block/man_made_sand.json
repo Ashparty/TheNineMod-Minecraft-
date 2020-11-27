@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_nine:blocks/fakesand2",
+    "up": "the_nine:blocks/fakesand2",
+    "north": "the_nine:blocks/fakesand2",
+    "east": "the_nine:blocks/fakesand2",
+    "south": "the_nine:blocks/fakesand2",
+    "west": "the_nine:blocks/fakesand2",
+    "particle": "the_nine:blocks/fakesand2"
+  }
+}

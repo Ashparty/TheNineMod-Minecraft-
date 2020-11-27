@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "the_nine:blocks/lemon_planks",
+    "top": "the_nine:blocks/lemon_planks",
+    "side": "the_nine:blocks/lemon_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:darker_log"
+    }
+  ],
+  "result": {
+    "item": "the_nine:darker_planks",
+    "count": 4
+  }
+}

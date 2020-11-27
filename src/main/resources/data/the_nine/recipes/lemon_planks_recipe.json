@@ -1,0 +1,13 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:lemon_log"
+    }
+  ],
+  "result": {
+    "item": "the_nine:lemon_planks",
+    "count": 4
+  }
+}

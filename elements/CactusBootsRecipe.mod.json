@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CACTUS"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CactusArmour.boots"
+    },
+    "name": "cactus_boots_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_nine:blocks/freezingstone",
+    "up": "the_nine:blocks/freezingstone",
+    "north": "the_nine:blocks/freezingstone",
+    "east": "the_nine:blocks/freezingstone",
+    "south": "the_nine:blocks/freezingstone",
+    "west": "the_nine:blocks/freezingstone",
+    "particle": "the_nine:blocks/freezingstone"
+  }
+}

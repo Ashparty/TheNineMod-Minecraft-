@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "the_nine:blocks/lemon_planks",
+    "particle": "the_nine:blocks/lemon_planks"
+  }
+}

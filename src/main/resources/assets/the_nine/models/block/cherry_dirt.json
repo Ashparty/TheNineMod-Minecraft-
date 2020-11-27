@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_nine:blocks/dirtbottomdarker",
+    "up": "the_nine:blocks/dirtbottomdarker",
+    "north": "the_nine:blocks/dirtbottomdarker",
+    "east": "the_nine:blocks/dirtbottomdarker",
+    "south": "the_nine:blocks/dirtbottomdarker",
+    "west": "the_nine:blocks/dirtbottomdarker",
+    "particle": "the_nine:blocks/dirtbottomdarker"
+  }
+}
