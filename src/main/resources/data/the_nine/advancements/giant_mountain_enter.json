@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": {
+      "translate": "advancements.giant_mountain_enter.title"
+    },
+    "description": {
+      "translate": "advancements.giant_mountain_enter.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "giant_mountain_enter": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "the_nine:giant_mountain"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "the_nine:nine_installed"
+}

@@ -13,28 +13,24 @@ import net.minecraft.world.gen.placement.Placement;
 import net.minecraft.world.gen.placement.IPlacementConfig;
 import net.minecraft.world.gen.placement.FrequencyConfig;
 import net.minecraft.world.gen.placement.AtSurfaceWithExtraConfig;
-import net.minecraft.world.gen.feature.structure.MineshaftStructure;
-import net.minecraft.world.gen.feature.structure.MineshaftConfig;
 import net.minecraft.world.gen.feature.SeaGrassConfig;
 import net.minecraft.world.gen.feature.MultipleRandomFeatureConfig;
-import net.minecraft.world.gen.feature.IFeatureConfig;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.thenine.block.FreezingStoneBlock;
 import net.mcreator.thenine.TheNineModElements;
 
 import com.google.common.collect.ImmutableList;
 
 @TheNineModElements.ModElement.Tag
-public class RiftTundraBiome extends TheNineModElements.ModElement {
-	@ObjectHolder("the_nine:rift_tundra")
+public class GiantMountainBiome extends TheNineModElements.ModElement {
+	@ObjectHolder("the_nine:giant_mountain")
 	public static final CustomBiome biome = null;
-	public RiftTundraBiome(TheNineModElements instance) {
-		super(instance, 4);
+	public GiantMountainBiome(TheNineModElements instance) {
+		super(instance, 361);
 	}
 
 	@Override
@@ -45,43 +41,49 @@ public class RiftTundraBiome extends TheNineModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.ICY, new BiomeManager.BiomeEntry(biome, 5));
+		BiomeManager.addBiome(BiomeManager.BiomeType.COOL, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
-			super(new Biome.Builder().downfall(0.9f).depth(0.1f).scale(0.2f).temperature(0f).precipitation(Biome.RainType.SNOW)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(-16724788)
-					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.SNOW_BLOCK.getDefaultState(),
-							FreezingStoneBlock.block.getDefaultState(), FreezingStoneBlock.block.getDefaultState())));
-			setRegistryName("rift_tundra");
+			super(new Biome.Builder().downfall(0.2f).depth(0.1f).scale(2f).temperature(0.4f).precipitation(Biome.RainType.RAIN)
+					.category(Biome.Category.EXTREME_HILLS).waterColor(4159204).waterFogColor(329011).parent("mountains")
+					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(Blocks.GRASS_BLOCK.getDefaultState(),
+							Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
+			setRegistryName("giant_mountain");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addOres(this);
-			DefaultBiomeFeatures.addLakes(this);
+			DefaultBiomeFeatures.addExtraEmeraldOre(this);
+			DefaultBiomeFeatures.addExtraGoldOre(this);
 			DefaultBiomeFeatures.addFossils(this);
-			this.addStructure(Feature.STRONGHOLD.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
-			this.addStructure(Feature.MINESHAFT.withConfiguration(new MineshaftConfig(0.004D, MineshaftStructure.Type.NORMAL)));
-			this.addStructure(Feature.IGLOO.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG));
+			DefaultBiomeFeatures.addScatteredSpruceTrees(this);
+			DefaultBiomeFeatures.addTaigaLargeFerns(this);
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.FLOWER.withConfiguration(DefaultBiomeFeatures.DEFAULT_FLOWER_CONFIG)
 					.withPlacement(Placement.COUNT_HEIGHTMAP_32.configure(new FrequencyConfig(4))));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.RANDOM_PATCH.withConfiguration(DefaultBiomeFeatures.GRASS_CONFIG)
-					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(4))));
+					.withPlacement(Placement.COUNT_HEIGHTMAP_DOUBLE.configure(new FrequencyConfig(3))));
 			this.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Feature.SEAGRASS.withConfiguration(new SeaGrassConfig(20, 0.3D))
 					.withPlacement(Placement.TOP_SOLID_HEIGHTMAP.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					Feature.RANDOM_SELECTOR
 							.withConfiguration(new MultipleRandomFeatureConfig(
-									ImmutableList.of(Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.field_230129_h_).withChance(0.2F),
-											Feature.FANCY_TREE.withConfiguration(DefaultBiomeFeatures.field_230131_m_).withChance(0.1F)),
-									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.field_230132_o_)))
+									ImmutableList.of(Feature.MEGA_SPRUCE_TREE.withConfiguration(DefaultBiomeFeatures.MEGA_PINE_TREE_CONFIG)
+											.withChance(0.30769232F)),
+									Feature.NORMAL_TREE.withConfiguration(DefaultBiomeFeatures.SPRUCE_TREE_CONFIG)))
 							.withPlacement(Placement.COUNT_EXTRA_HEIGHTMAP.configure(new AtSurfaceWithExtraConfig(3, 0.1F, 1))));
 		}
 
 		@OnlyIn(Dist.CLIENT)
 		@Override
-		public int getSkyColor() {
-			return -16751002;
+		public int getGrassColor(double posX, double posZ) {
+			return -16751053;
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public int getFoliageColor() {
+			return -16764109;
 		}
 	}
 }
