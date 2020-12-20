@@ -3498,6 +3498,74 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "guide_book"
+    },
+    {
+      "name": "SugarcaneArmourHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugarcane_armour_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarcaneArmourBodyTickEvent",
+      "type": "procedure",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugarcane_armour_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarcaneArmourLeggingsTickEvent",
+      "type": "procedure",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugarcane_armour_leggings_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SugarcaneArmourBootsTickEvent",
+      "type": "procedure",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sugarcane_armour_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],

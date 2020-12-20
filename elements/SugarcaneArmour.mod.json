@@ -10,6 +10,18 @@
     "textureLeggings": "sugarcanearmour_leggings",
     "enableBoots": true,
     "textureBoots": "sugarcanearmour_boots",
+    "onHelmetTick": {
+      "name": "SugarcaneArmourHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SugarcaneArmourBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SugarcaneArmourLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SugarcaneArmourBootsTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

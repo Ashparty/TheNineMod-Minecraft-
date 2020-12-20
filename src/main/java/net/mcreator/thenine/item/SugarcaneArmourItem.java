@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ItemStack;
@@ -14,9 +15,17 @@ import net.minecraft.item.Item;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.thenine.procedures.SugarcaneArmourLeggingsTickEventProcedure;
+import net.mcreator.thenine.procedures.SugarcaneArmourHelmetTickEventProcedure;
+import net.mcreator.thenine.procedures.SugarcaneArmourBootsTickEventProcedure;
+import net.mcreator.thenine.procedures.SugarcaneArmourBodyTickEventProcedure;
 import net.mcreator.thenine.TheNineModElements;
+
+import java.util.Map;
+import java.util.HashMap;
 
 @TheNineModElements.ModElement.Tag
 public class SugarcaneArmourItem extends TheNineModElements.ModElement {
@@ -69,11 +78,36 @@ public class SugarcaneArmourItem extends TheNineModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "the_nine:textures/models/armor/sugarcanearmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				super.onArmorTick(itemstack, world, entity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					SugarcaneArmourHelmetTickEventProcedure.executeProcedure($_dependencies);
+				}
+			}
 		}.setRegistryName("sugarcane_armour_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "the_nine:textures/models/armor/sugarcanearmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					SugarcaneArmourBodyTickEventProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("sugarcane_armour_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
@@ -81,11 +115,35 @@ public class SugarcaneArmourItem extends TheNineModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "the_nine:textures/models/armor/sugarcanearmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					SugarcaneArmourLeggingsTickEventProcedure.executeProcedure($_dependencies);
+				}
+			}
 		}.setRegistryName("sugarcane_armour_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "the_nine:textures/models/armor/sugarcanearmour_layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					SugarcaneArmourBootsTickEventProcedure.executeProcedure($_dependencies);
+				}
 			}
 		}.setRegistryName("sugarcane_armour_boots"));
 	}
