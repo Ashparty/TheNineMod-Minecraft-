@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "rdium_sword",
+    "texture": "mine_craft_sword",
     "customModelName": "Normal",
     "name": "Rdium Sword",
     "specialInfo": [],
@@ -18,7 +18,7 @@
     "damageVsEntity": 4.0,
     "usageCount": 569,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:Rdium"

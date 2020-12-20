@@ -2,6 +2,8 @@
 package net.mcreator.thenine.item;
 
 import net.minecraftforge.registries.ObjectHolder;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.SwordItem;
@@ -47,6 +49,11 @@ public class RdiumSwordItem extends TheNineModElements.ModElement {
 				return Ingredient.fromStacks(new ItemStack(RdiumItem.block, (int) (1)));
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
+			@Override
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setRegistryName("rdium_sword"));
 	}
 }
