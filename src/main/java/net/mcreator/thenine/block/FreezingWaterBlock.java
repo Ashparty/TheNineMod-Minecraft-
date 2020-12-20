@@ -21,6 +21,7 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.ResourceLocation;
@@ -29,16 +30,21 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BucketItem;
 import net.minecraft.fluid.Fluid;
 import net.minecraft.fluid.FlowingFluid;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.FlowingFluidBlock;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.thenine.procedures.FreezingEffectOnPotionActiveTickProcedure;
 import net.mcreator.thenine.itemgroup.TheNineModItemGroup;
 import net.mcreator.thenine.TheNineModElements;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
 @TheNineModElements.ModElement.Tag
 public class FreezingWaterBlock extends TheNineModElements.ModElement {
@@ -75,6 +81,18 @@ public class FreezingWaterBlock extends TheNineModElements.ModElement {
 		still = (FlowingFluid) new ForgeFlowingFluid.Source(fluidproperties).setRegistryName("freezing_water");
 		flowing = (FlowingFluid) new ForgeFlowingFluid.Flowing(fluidproperties).setRegistryName("freezing_water_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still, Block.Properties.create(Material.WATER)) {
+			@Override
+			public void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+				super.onEntityCollision(state, world, pos, entity);
+				int x = pos.getX();
+				int y = pos.getY();
+				int z = pos.getZ();
+				{
+					Map<String, Object> $_dependencies = new HashMap<>();
+					$_dependencies.put("entity", entity);
+					FreezingEffectOnPotionActiveTickProcedure.executeProcedure($_dependencies);
+				}
+			}
 		}.setRegistryName("freezing_water"));
 		elements.items
 				.add(() -> new BucketItem(still, new Item.Properties().containerItem(Items.BUCKET).maxStackSize(1).group(TheNineModItemGroup.tab))

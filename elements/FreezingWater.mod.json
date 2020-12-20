@@ -22,6 +22,9 @@
       {
         "value": "CUSTOM:RiftTundra"
       }
-    ]
+    ],
+    "onEntityCollides": {
+      "name": "FreezingEffectOnPotionActiveTick"
+    }
   }
 }

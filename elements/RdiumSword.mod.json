@@ -15,8 +15,8 @@
     "efficiency": 9.0,
     "attackSpeed": 1.0,
     "enchantability": 25,
-    "damageVsEntity": 4.0,
-    "usageCount": 569,
+    "damageVsEntity": 7.0,
+    "usageCount": 576,
     "blocksAffected": [],
     "hasGlow": true,
     "repairItems": [
@@ -25,6 +25,9 @@
       }
     ],
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "RdiumSwordLivingEntityIsHitWithTool"
+    }
   }
 }
