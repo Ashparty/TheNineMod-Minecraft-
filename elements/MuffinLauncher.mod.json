@@ -1,0 +1,37 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "muffin",
+    "customModelName": "Normal",
+    "name": "Muffin Launcher",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:TheNineMod"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Muffin"
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 6.6,
+    "bulletKnockback": 8,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Muffin"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "noglow.png"
+  }
+}
