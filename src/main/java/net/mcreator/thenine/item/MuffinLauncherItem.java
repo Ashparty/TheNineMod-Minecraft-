@@ -76,7 +76,7 @@ public class MuffinLauncherItem extends TheNineModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.SPEAR;
 		}
 
 		@Override
@@ -85,7 +85,8 @@ public class MuffinLauncherItem extends TheNineModElements.ModElement {
 		}
 
 		@Override
-		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
+		public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
+			World world = entityLiving.world;
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
 				double x = entity.getPosX();
@@ -103,7 +104,7 @@ public class MuffinLauncherItem extends TheNineModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 2.5f, 6.6, 8);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 1.3f, 3.5, 7);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -122,6 +123,7 @@ public class MuffinLauncherItem extends TheNineModElements.ModElement {
 							}
 						}
 					}
+					entity.stopActiveHand();
 				}
 			}
 		}
@@ -202,10 +204,10 @@ public class MuffinLauncherItem extends TheNineModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 2.5f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.3f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(6.6);
-		entityarrow.setKnockbackStrength(8);
+		entityarrow.setDamage(3.5);
+		entityarrow.setKnockbackStrength(7);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
