@@ -1,0 +1,28 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "the_nine:muffin"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "the_nine:freezing_rift_ingot"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "the_nine:freezing_rift_ingot"
+    }
+  ],
+  "result": {
+    "item": "the_nine:muffin_launcher",
+    "count": 1
+  }
+}
