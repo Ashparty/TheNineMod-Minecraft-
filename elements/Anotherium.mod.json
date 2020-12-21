@@ -8,7 +8,7 @@
     "name": "Anotherium",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:TheNineMod"
     },
     "stackSize": 64,
     "enchantability": 0,
