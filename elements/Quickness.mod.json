@@ -3,8 +3,8 @@
   "_type": "enchantment",
   "definition": {
     "name": "Quickness",
-    "type": "ALL",
-    "rarity": "UNCOMMON",
+    "type": "WEAPON",
+    "rarity": "COMMON",
     "minLevel": 1,
     "maxLevel": 4,
     "damageModifier": 0,

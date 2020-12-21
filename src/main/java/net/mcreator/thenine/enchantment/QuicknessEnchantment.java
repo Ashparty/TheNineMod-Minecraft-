@@ -23,7 +23,7 @@ public class QuicknessEnchantment extends TheNineModElements.ModElement {
 	}
 	public static class CustomEnchantment extends Enchantment {
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.UNCOMMON, EnchantmentType.ALL, slots);
+			super(Enchantment.Rarity.COMMON, EnchantmentType.WEAPON, slots);
 		}
 
 		@Override

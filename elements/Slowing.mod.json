@@ -4,7 +4,7 @@
   "definition": {
     "name": "Slowing",
     "type": "WEAPON",
-    "rarity": "RARE",
+    "rarity": "UNCOMMON",
     "minLevel": 1,
     "maxLevel": 2,
     "damageModifier": 0,
