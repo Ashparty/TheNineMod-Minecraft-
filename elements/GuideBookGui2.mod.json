@@ -1,0 +1,53 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "previous",
+          "onClick": {
+            "name": "Openpreviousguidebook1"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "previous",
+          "x": 135,
+          "y": 170
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Lololol get trolled",
+          "width": 120,
+          "height": 20,
+          "name": "Info",
+          "x": 146,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Lol get trolled",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Lol get trolled",
+          "x": 149,
+          "y": 82
+        }
+      }
+    ]
+  }
+}

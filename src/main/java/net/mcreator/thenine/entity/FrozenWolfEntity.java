@@ -83,7 +83,7 @@ public class FrozenWolfEntity extends TheNineModElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("frozen_wolf")
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 0.8f)).build("frozen_wolf")
 						.setRegistryName("frozen_wolf");
 		elements.entities.add(() -> entity);
 		elements.items

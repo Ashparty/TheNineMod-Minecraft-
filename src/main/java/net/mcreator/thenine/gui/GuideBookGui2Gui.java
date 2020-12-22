@@ -25,11 +25,12 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.gui.widget.button.Button;
+import net.minecraft.client.gui.widget.TextFieldWidget;
 import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
-import net.mcreator.thenine.procedures.GuideBookNext1Procedure;
+import net.mcreator.thenine.procedures.Openpreviousguidebook1Procedure;
 import net.mcreator.thenine.TheNineModElements;
 import net.mcreator.thenine.TheNineMod;
 
@@ -38,11 +39,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @TheNineModElements.ModElement.Tag
-public class GuideBookguiGui extends TheNineModElements.ModElement {
+public class GuideBookGui2Gui extends TheNineModElements.ModElement {
 	public static HashMap guistate = new HashMap();
 	private static ContainerType<GuiContainerMod> containerType = null;
-	public GuideBookguiGui(TheNineModElements instance) {
-		super(instance, 369);
+	public GuideBookGui2Gui(TheNineModElements instance) {
+		super(instance, 382);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,
@@ -58,7 +59,7 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 
 	@SubscribeEvent
 	public void registerContainer(RegistryEvent.Register<ContainerType<?>> event) {
-		event.getRegistry().register(containerType.setRegistryName("guide_bookgui"));
+		event.getRegistry().register(containerType.setRegistryName("guide_book_gui_2"));
 	}
 	public static class GuiContainerModFactory implements IContainerFactory {
 		public GuiContainerMod create(int id, PlayerInventory inv, PacketBuffer extraData) {
@@ -102,6 +103,7 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 		private World world;
 		private int x, y, z;
 		private PlayerEntity entity;
+		TextFieldWidget Info;
 		public GuiWindow(GuiContainerMod container, PlayerInventory inventory, ITextComponent text) {
 			super(container, inventory, text);
 			this.world = container.world;
@@ -112,12 +114,13 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 			this.xSize = 176;
 			this.ySize = 166;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("the_nine:textures/guide_bookgui.png");
+		private static final ResourceLocation texture = new ResourceLocation("the_nine:textures/guide_book_gui_2.png");
 		@Override
 		public void render(int mouseX, int mouseY, float partialTicks) {
 			this.renderBackground();
 			super.render(mouseX, mouseY, partialTicks);
 			this.renderHoveredToolTip(mouseX, mouseY);
+			Info.render(mouseX, mouseY, partialTicks);
 		}
 
 		@Override
@@ -135,17 +138,20 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 				this.minecraft.player.closeScreen();
 				return true;
 			}
+			if (Info.isFocused())
+				return Info.keyPressed(key, b, c);
 			return super.keyPressed(key, b, c);
 		}
 
 		@Override
 		public void tick() {
 			super.tick();
+			Info.tick();
 		}
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("There isnt anything here  ):", 14, 14, -12829636);
+			this.font.drawString("Lol get trolled", 23, 45, -12829636);
 		}
 
 		@Override
@@ -158,10 +164,35 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 		public void init(Minecraft minecraft, int width, int height) {
 			super.init(minecraft, width, height);
 			minecraft.keyboardListener.enableRepeatEvents(true);
-			this.addButton(new Button(this.guiLeft + 118, this.guiTop + 135, 45, 20, "Next", e -> {
+			this.addButton(new Button(this.guiLeft + 9, this.guiTop + 133, 65, 20, "previous", e -> {
 				TheNineMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(0, x, y, z));
 				handleButtonAction(entity, 0, x, y, z);
 			}));
+			Info = new TextFieldWidget(this.font, this.guiLeft + 20, this.guiTop + 24, 120, 20, "Lololol get trolled") {
+				{
+					setSuggestion("Lololol get trolled");
+				}
+				@Override
+				public void writeText(String text) {
+					super.writeText(text);
+					if (getText().isEmpty())
+						setSuggestion("Lololol get trolled");
+					else
+						setSuggestion(null);
+				}
+
+				@Override
+				public void setCursorPosition(int pos) {
+					super.setCursorPosition(pos);
+					if (getText().isEmpty())
+						setSuggestion("Lololol get trolled");
+					else
+						setSuggestion(null);
+				}
+			};
+			guistate.put("text:Info", Info);
+			Info.setMaxStringLength(32767);
+			this.children.add(this.Info);
 		}
 	}
 
@@ -259,7 +290,7 @@ public class GuideBookguiGui extends TheNineModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				GuideBookNext1Procedure.executeProcedure($_dependencies);
+				Openpreviousguidebook1Procedure.executeProcedure($_dependencies);
 			}
 		}
 	}
