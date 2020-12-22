@@ -1,7 +1,12 @@
 {
-  "parent": "block/cube_all",
+  "parent": "block/cube",
   "textures": {
-    "all": "the_nine:blocks/lemon_leaves",
+    "down": "the_nine:blocks/lemon_leaves",
+    "up": "the_nine:blocks/lemon_leaves",
+    "north": "the_nine:blocks/lemon_leaves",
+    "east": "the_nine:blocks/lemon_leaves",
+    "south": "the_nine:blocks/lemon_leaves",
+    "west": "the_nine:blocks/lemon_leaves",
     "particle": "the_nine:blocks/lemon_leaves"
   }
 }

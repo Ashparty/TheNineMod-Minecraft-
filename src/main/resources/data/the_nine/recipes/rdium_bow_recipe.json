@@ -1,0 +1,28 @@
+{
+  "group": "the_nine",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_nine:rdium"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "the_nine:rdium"
+    },
+    {
+      "item": "minecraft:string"
+    },
+    {
+      "item": "the_nine:rdium"
+    },
+    {
+      "item": "minecraft:string"
+    }
+  ],
+  "result": {
+    "item": "the_nine:rdium_bow",
+    "count": 1
+  }
+}
