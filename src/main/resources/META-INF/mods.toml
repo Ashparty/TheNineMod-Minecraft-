@@ -1,5 +1,6 @@
 modLoader="javafml"
-loaderVersion="[31,)"
+loaderVersion="[35,)"
+license="Not specified"
 
 [[mods]]
 modId="the_nine"
@@ -12,7 +13,7 @@ authors="bug73, MCreator"
 [[dependencies.the_nine]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.15.2]"
+    versionRange="[1.16.4]"
     ordering="NONE"
     side="BOTH"
 

@@ -11,7 +11,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.EffectType;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effect;
-import net.minecraft.entity.ai.attributes.AbstractAttributeMap;
+import net.minecraft.entity.ai.attributes.AttributeModifierManager;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.thenine.procedures.FreezingEffectPotionStartedappliedProcedure;
@@ -74,7 +74,7 @@ public class FreezingEffectPotion extends TheNineModElements.ModElement {
 		}
 
 		@Override
-		public void applyAttributesModifiersToEntity(LivingEntity entity, AbstractAttributeMap attributeMapIn, int amplifier) {
+		public void applyAttributesModifiersToEntity(LivingEntity entity, AttributeModifierManager attributeMapIn, int amplifier) {
 			World world = entity.world;
 			double x = entity.getPosX();
 			double y = entity.getPosY();
@@ -100,7 +100,7 @@ public class FreezingEffectPotion extends TheNineModElements.ModElement {
 		}
 
 		@Override
-		public void removeAttributesModifiersFromEntity(LivingEntity entity, AbstractAttributeMap attributeMapIn, int amplifier) {
+		public void removeAttributesModifiersFromEntity(LivingEntity entity, AttributeModifierManager attributeMapIn, int amplifier) {
 			super.removeAttributesModifiersFromEntity(entity, attributeMapIn, amplifier);
 			World world = entity.world;
 			double x = entity.getPosX();

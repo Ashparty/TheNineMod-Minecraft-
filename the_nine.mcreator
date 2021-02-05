@@ -416,7 +416,10 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "rift_tundra_world"
+      "registry_name": "rift_tundra_world",
+      "metadata": {
+        "ep": true
+      }
     },
     {
       "name": "EnterRiftTundraDimension",
@@ -3581,6 +3584,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "apple_juice"
+    },
+    {
+      "name": "AppleJuiceRecipe",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_juice_recipe"
+    },
+    {
+      "name": "SmithingTableRiftHemlet",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithing_table_rift_hemlet"
+    },
+    {
+      "name": "SmithingTableRiftChestplate",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithing_table_rift_chestplate"
+    },
+    {
+      "name": "SmithingTableRiftLeggings",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithing_table_rift_leggings"
+    },
+    {
+      "name": "SmithingRiftBootsRecipe",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smithing_rift_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -3821,15 +3869,17 @@
     "version": "1.0.0",
     "author": "bug73, MCreator",
     "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.15.2",
+    "currentGenerator": "forge-1.16.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.thenine",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202000547520
+  "mcreatorVersion": 202100103117
 }

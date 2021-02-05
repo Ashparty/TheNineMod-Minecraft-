@@ -1,24 +1,7 @@
 {
-  "_fv": 13,
+  "_fv": 15,
   "_type": "dimension",
   "definition": {
-    "portalFrame": {
-      "value": "CUSTOM:FreezingStone"
-    },
-    "portalParticles": {
-      "value": "POOF"
-    },
-    "portalLuminance": 0.16,
-    "portalSound": {
-      "value": "block.portal.ambient"
-    },
-    "igniterName": "Charged Freezing Ore",
-    "igniterTab": {
-      "value": "CUSTOM:TheNineMod"
-    },
-    "texture": "chargedfreezingore",
-    "portalTexture": "freezingtundraportal",
-    "enablePortal": true,
     "biomesInDimension": [
       {
         "value": "CUSTOM:RiftTundra"
@@ -37,11 +20,27 @@
     },
     "canRespawnHere": true,
     "hasFog": true,
-    "hasWeather": true,
     "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
     "hasSkyLight": false,
-    "imitateOverworldBehaviour": true
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:FreezingStone"
+    },
+    "portalParticles": {
+      "value": "POOF"
+    },
+    "portalLuminance": 2,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Charged Freezing Ore",
+    "igniterTab": {
+      "value": "CUSTOM:TheNineMod"
+    },
+    "texture": "chargedfreezingore",
+    "portalTexture": "freezingtundraportal",
+    "enablePortal": true
   }
 }

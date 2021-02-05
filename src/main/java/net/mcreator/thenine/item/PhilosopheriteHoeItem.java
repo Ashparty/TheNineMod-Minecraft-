@@ -46,7 +46,7 @@ public class PhilosopheriteHoeItem extends TheNineModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(PhilosopheriteIngotItem.block, (int) (1)));
 			}
-		}, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 0, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("philosopherite_hoe"));
 	}
 }

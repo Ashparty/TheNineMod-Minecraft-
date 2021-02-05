@@ -6,6 +6,7 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.thenine.TheNineModElements;
+import net.mcreator.thenine.TheNineMod;
 
 import java.util.Map;
 
@@ -18,7 +19,7 @@ public class SugarcaneArmourLeggingsTickEventProcedure extends TheNineModElement
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure SugarcaneArmourLeggingsTickEvent!");
+				TheNineMod.LOGGER.warn("Failed to load dependency entity for procedure SugarcaneArmourLeggingsTickEvent!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");

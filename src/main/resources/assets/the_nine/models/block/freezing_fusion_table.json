@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "the_nine:blocks/freezingfusiontabletop",
-    "up": "the_nine:blocks/freezingfusiontabletop",
-    "north": "the_nine:blocks/freezeingfusiontableside",
-    "east": "the_nine:blocks/freezeingfusiontableside",
-    "south": "the_nine:blocks/freezeingfusiontableside",
-    "west": "the_nine:blocks/freezeingfusiontableside",
-    "particle": "the_nine:blocks/freezingfusiontabletop"
+    "down": "the_nine:blocks/freezingfusiontabletopanimated",
+    "up": "the_nine:blocks/freezingfusiontabletopanimated",
+    "north": "the_nine:blocks/freezingfusiontablesideanimated",
+    "east": "the_nine:blocks/freezingfusiontablesideanimated",
+    "south": "the_nine:blocks/freezingfusiontablesideanimated",
+    "west": "the_nine:blocks/freezingfusiontablesideanimated",
+    "particle": "the_nine:blocks/freezingfusiontabletopanimated"
   }
 }

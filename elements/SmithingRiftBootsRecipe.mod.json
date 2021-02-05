@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "Items.NETHERITE_BOOTS"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:FreezingRiftIngot"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:FreezingRiftArmor.boots"
+    },
+    "name": "smithing_rift_boots_recipe",
+    "namespace": "mod"
+  }
+}

@@ -14,6 +14,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 
 import net.mcreator.thenine.enchantment.QuicknessEnchantment;
 import net.mcreator.thenine.TheNineModElements;
+import net.mcreator.thenine.TheNineMod;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -28,7 +29,7 @@ public class QuicknessEnchantEffectProcedure extends TheNineModElements.ModEleme
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure QuicknessEnchantEffect!");
+				TheNineMod.LOGGER.warn("Failed to load dependency entity for procedure QuicknessEnchantEffect!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
